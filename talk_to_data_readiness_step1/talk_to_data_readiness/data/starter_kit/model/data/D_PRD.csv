@@ -1,0 +1,25 @@
+PRD_KEY,NM,CAT_CD,SUB_CAT,LST_PRC
+P001,Trailblazer 500,BK,Mountain Bikes,1450
+P002,Trailblazer 700,BK,Mountain Bikes,2190
+P003,Roadster Pro,BK,Road Bikes,2650
+P004,Roadster Sport,BK,Road Bikes,1280
+P005,City Glide,BK,Touring Bikes,940
+P006,Voyager LX,BK,Touring Bikes,1720
+P007,Summit Helmet,AC,Helmets,85
+P008,Aero Helmet,AC,Helmets,140
+P009,Hydra Bottle,AC,Bottles,12
+P010,Trail Pump,AC,Pumps,38
+P011,Lumen Light Set,AC,Lights,64
+P012,Lockdown U-Lock,AC,Locks,55
+P013,Pro Jersey,CL,Jerseys,75
+P014,Thermal Jacket,CL,Jackets,160
+P015,Grip Gloves,CL,Gloves,32
+P016,Aero Shorts,CL,Shorts,68
+P017,Wool Socks,CL,Socks,14
+P018,Rain Shell,CL,Jackets,120
+P019,Carbon Fork,CP,Forks,410
+P020,Hydraulic Brakes,CP,Brakes,260
+P021,Alloy Wheelset,CP,Wheels,520
+P022,12-Speed Chain,CP,Chains,45
+P023,Comfort Saddle,CP,Saddles,90
+P024,Crankset X,CP,Cranks,330

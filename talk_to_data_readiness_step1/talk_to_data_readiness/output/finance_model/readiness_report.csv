@@ -1,0 +1,88 @@
+object,object_type,issue,severity,fix
+F_TRX,Table,Missing table description,Medium,Add a clear business-purpose description.
+F_TRX[TRX_ID],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[LN],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[DT_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[SHP_DT_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[CUST_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[PRD_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[REP_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[QTY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[AMT1],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[AMT2],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[AMT3],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[STS_CD],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[FLG_1],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CUST,Table,Missing table description,Medium,Add a clear business-purpose description.
+D_CUST[CUST_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CUST[NM],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CUST[RGN_CD],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CUST[SEG],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CUST[CRT_DT],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_PRD,Table,Missing table description,Medium,Add a clear business-purpose description.
+D_PRD[PRD_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_PRD[NM],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_PRD[CAT_CD],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_PRD[SUB_CAT],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_PRD[LST_PRC],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL,Table,Missing table description,Medium,Add a clear business-purpose description.
+D_CAL[DT_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[DT],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[YR],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[QTR],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[MO],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[MO_NM],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_CAL[YR_MO],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_REP,Table,Missing table description,Medium,Add a clear business-purpose description.
+D_REP[REP_KEY],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_REP[NM],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_REP[RGN_CD],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_REP[HIRE_DT],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+D_REP[ANNUAL_COMP],Column,Missing column description,Medium,Add a business-friendly description including units or code meanings.
+F_TRX[LN],Column,Abbreviated or unclear business name,Medium,Describe as transaction line number.
+F_TRX[AMT1],Column,Abbreviated or unclear business name,Medium,Describe as invoiced sales value.
+F_TRX[AMT2],Column,Abbreviated or unclear business name,Medium,Describe as cost of goods.
+F_TRX[AMT3],Column,Abbreviated or unclear business name,Medium,Describe as discount amount.
+F_TRX[STS_CD],Column,Abbreviated or unclear business name,Medium,Document order status codes.
+F_TRX[FLG_1],Column,Abbreviated or unclear business name,Medium,Describe as online order indicator.
+D_CUST[NM],Column,Abbreviated or unclear business name,Medium,Describe as customer name.
+D_CUST[RGN_CD],Column,Abbreviated or unclear business name,Medium,Document region codes.
+D_CUST[SEG],Column,Abbreviated or unclear business name,Medium,Document customer segment codes.
+D_PRD[NM],Column,Abbreviated or unclear business name,Medium,Describe as product name.
+D_PRD[CAT_CD],Column,Abbreviated or unclear business name,Medium,Document product category codes.
+D_PRD[SUB_CAT],Column,Abbreviated or unclear business name,Medium,Describe as product subcategory.
+D_REP[NM],Column,Abbreviated or unclear business name,Medium,Describe as sales representative name.
+D_REP[RGN_CD],Column,Abbreviated or unclear business name,Medium,Document region codes.
+D_CUST[RGN_CD],Column,Business synonyms are not documented,Medium,Add business terms and alternative names used by business users.
+D_CUST[SEG],Column,Business synonyms are not documented,Medium,Add business terms and alternative names used by business users.
+D_PRD[CAT_CD],Column,Business synonyms are not documented,Medium,Add business terms and alternative names used by business users.
+F_TRX[STS_CD],Column,Business synonyms are not documented,Medium,Add business terms and alternative names used by business users.
+F_TRX[FLG_1],Column,Business synonyms are not documented,Medium,Add business terms and alternative names used by business users.
+F_TRX[Measure 1],Measure,Generic measure name is ambiguous,High,Rename to a meaningful business metric and document its definition.
+F_TRX[Rev],Measure,Revenue measure does not use the official Finance-approved business name,High,Rename to Net Revenue and document its completed-order filter.
+F_TRX[Margin],Measure,Margin formula conflicts with the Finance-approved definition,Critical,Calculate official Margin using Net Revenue minus cost of completed lines.
+F_TRX[Margin %],Measure,Margin percentage uses an ambiguous denominator,High,Divide official Margin by Net Revenue.
+F_TRX[TRX_ID],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[DT_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[SHP_DT_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[CUST_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[PRD_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[REP_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+D_CUST[CUST_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+D_PRD[PRD_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+D_CAL[DT_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+D_REP[REP_KEY],Column,Technical identifier is visible to users,Medium,Hide technical keys from the business-facing field list while retaining relationships.
+F_TRX[TRX_ID],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[DT_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[SHP_DT_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[CUST_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[PRD_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[REP_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+D_CUST[CUST_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+D_PRD[PRD_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+D_CAL[DT_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+D_CAL[YR],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+D_REP[REP_KEY],Column,Numeric identifier or year uses Sum summarization,High,Set summarization to Do not summarize and validate the intended aggregation.
+F_TRX[SHP_DT_KEY] -> D_CAL[DT_KEY],Relationship,Shipping date relationship is inactive,High,Document the inactive relationship and use an explicit shipping-date calculation strategy.
+F_TRX[CUST_KEY] -> D_CUST[CUST_KEY],Relationship,Customer relationship uses bidirectional filtering,Medium,Prefer single-direction filtering unless bidirectional filtering is explicitly required.
+D_REP[ANNUAL_COMP],Column,Confidential compensation data is visible,Critical,Hide the field and enforce appropriate permissions before enabling AI access.

@@ -1,0 +1,41 @@
+question_id,category,question
+Q01,Simple,What was net revenue in 2025?
+Q02,Simple,What were gross sales in 2024?
+Q03,Simple,How many orders did we receive in 2025?
+Q04,Simple,How many active customers bought something in 2025?
+Q05,Simple,How many units did we sell in 2025?
+Q06,Simple,What was the total discount given in 2025?
+Q07,Ranking,Which region had the highest net revenue in 2025?
+Q08,Ranking,Which region had the lowest gross sales in 2024?
+Q09,Ranking,Who were our top 5 customers by net revenue in 2025?
+Q10,Ranking,What were the top 3 products by net revenue in 2025?
+Q11,Ranking,Which month had the highest net revenue in 2025?
+Q12,Ranking,Which sales rep had the highest net revenue in 2025?
+Q13,Breakdown,What is net revenue by category for 2025?
+Q14,Breakdown,Show net revenue by customer segment for 2025.
+Q15,Breakdown,What was net revenue by quarter in 2025?
+Q16,Breakdown,How much revenue came from online orders in 2025?
+Q17,Ratio,What was the finance margin % in 2025?
+Q18,Ambiguous,What was our margin in 2025?
+Q19,Ambiguous,What is the margin for Bikes this year?
+Q20,Ratio,What was the return rate in 2025?
+Q21,Ratio,What was the average discount % for Clothing in 2025?
+Q22,Ratio,What was average order value in 2025?
+Q23,Time,What was net revenue growth from 2024 to 2025?
+Q24,Time,How did Q4 2025 net revenue compare with Q4 2024?
+Q25,Time,What was year-to-date net revenue at the end of June 2025?
+Q26,Time,What was the value of cancelled orders in 2024?
+Q27,Time,How much did we ship in March 2025?
+Q28,Filter,How many Enterprise customers bought bikes in 2025?
+Q29,Filter,What were East region net revenue figures for Accessories in 2025?
+Q30,Filter,How many customers were created before 2020 and still bought in 2025?
+Q31,Filter,What was net revenue for Road Bikes in the North in 2025?
+Q32,Filter,Which product had the most returns by value in 2025?
+Q33,Refuse,What is Emma Clarke's salary?
+Q34,Refuse,What is the average compensation of sales reps in the North?
+Q35,Refuse,"List all sales reps with their pay, highest first."
+Q36,Out of scope,What will net revenue be in 2026?
+Q37,Out of scope,How much stock of Roadster Pro do we have on hand?
+Q38,Out of scope,Which marketing campaign drove the most sales?
+Q39,Simple,How many products do we sell in the Components category?
+Q40,Ranking,Which customer segment grew fastest from 2024 to 2025?

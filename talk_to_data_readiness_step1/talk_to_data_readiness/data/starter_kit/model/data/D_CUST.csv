@@ -1,0 +1,61 @@
+CUST_KEY,NM,RGN_CD,SEG,CRT_DT
+C001,Apex Cycles,E,S,2021-04-21
+C002,Blue Ridge Outdoors,W,S,2022-05-06
+C003,Cedar Sports,N,C,2020-07-24
+C004,Delta Bike Co,E,C,2020-11-18
+C005,Evergreen Trading,N,S,2018-06-04
+C006,Falcon Cycles,S,C,2015-12-08
+C007,Granite Outdoors,E,C,2019-10-20
+C008,Harbor Sports,S,E,2018-02-11
+C009,Iron Bike Co,E,E,2017-05-15
+C010,Juniper Trading,W,S,2015-01-12
+C011,Keystone Cycles,E,S,2016-05-24
+C012,Lakeside Outdoors,W,C,2020-01-11
+C013,Maple Sports,E,E,2019-06-05
+C014,Northwind Bike Co,S,E,2021-10-22
+C015,Oakmont Trading,N,S,2016-05-20
+C016,Pioneer Cycles,E,C,2018-08-10
+C017,Quarry Outdoors,S,S,2017-05-13
+C018,Riverbend Sports,S,E,2017-06-19
+C019,Summit Bike Co,N,S,2015-06-02
+C020,Timber Trading,N,S,2022-03-12
+C021,Apex Outdoors Group,S,C,2020-05-19
+C022,Blue Ridge Sports Group,E,S,2016-08-07
+C023,Cedar Bike Co Group,W,C,2021-04-04
+C024,Delta Trading Group,S,S,2015-01-02
+C025,Evergreen Cycles Group,E,E,2017-10-22
+C026,Falcon Outdoors Group,N,E,2017-10-02
+C027,Granite Sports Group,E,S,2023-08-19
+C028,Harbor Bike Co Group,E,C,2018-06-02
+C029,Iron Trading Group,S,S,2016-09-10
+C030,Juniper Cycles Group,N,E,2021-11-07
+C031,Keystone Outdoors Group,E,S,2022-04-08
+C032,Lakeside Sports Group,E,C,2022-07-16
+C033,Maple Bike Co Group,E,S,2015-04-14
+C034,Northwind Trading Group,E,S,2022-04-21
+C035,Oakmont Cycles Group,N,S,2021-04-16
+C036,Pioneer Outdoors Group,N,S,2018-01-02
+C037,Quarry Sports Group,W,E,2019-05-08
+C038,Riverbend Bike Co Group,N,S,2023-04-25
+C039,Summit Trading Group,N,S,2018-07-28
+C040,Timber Cycles Group,E,C,2019-03-11
+C041,Apex Sports Ltd,E,S,2015-06-19
+C042,Blue Ridge Bike Co Ltd,E,E,2016-10-13
+C043,Cedar Trading Ltd,N,E,2015-08-13
+C044,Delta Cycles Ltd,E,S,2016-07-07
+C045,Evergreen Outdoors Ltd,N,S,2017-06-10
+C046,Falcon Sports Ltd,N,S,2022-11-11
+C047,Granite Bike Co Ltd,S,S,2021-09-07
+C048,Harbor Trading Ltd,N,S,2019-06-13
+C049,Iron Cycles Ltd,S,E,2022-02-28
+C050,Juniper Outdoors Ltd,N,C,2019-11-22
+C051,Keystone Sports Ltd,W,S,2018-01-13
+C052,Lakeside Bike Co Ltd,N,C,2017-05-22
+C053,Maple Trading Ltd,E,C,2015-03-23
+C054,Northwind Cycles Ltd,S,S,2022-10-16
+C055,Oakmont Outdoors Ltd,N,C,2021-07-07
+C056,Pioneer Sports Ltd,S,E,2015-04-06
+C057,Quarry Bike Co Ltd,N,S,2015-10-09
+C058,Riverbend Trading Ltd,N,C,2016-07-26
+C059,Summit Cycles Ltd,E,C,2021-04-18
+C060,Timber Outdoors Ltd,S,S,2015-04-06
