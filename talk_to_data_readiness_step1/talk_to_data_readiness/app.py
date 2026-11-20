@@ -339,12 +339,12 @@ st.divider()
     ai_tab,
     benchmark_tab
 ) = st.tabs([
-    "📊 Overview",
-    "🗂️ Model Analysis",
-    "🔍 Findings Explorer",
-    "✅ Validation Backlog",
-    "✨ AI Enrichment",
-    "🧪 Question Benchmark"
+    "   Overview",
+    "   Model Analysis",
+    "   Findings Explorer",
+    "   Validation Backlog",
+    "   AI Enrichment",
+    "   Question Benchmark"
 ])
 
 
