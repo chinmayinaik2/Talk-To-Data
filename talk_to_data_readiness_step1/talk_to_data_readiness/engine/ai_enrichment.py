@@ -6,6 +6,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from google import genai
+import streamlit as st
 
 
 # =========================================================
@@ -19,6 +20,22 @@ load_dotenv(PROJECT_ROOT / ".env")
 DEFAULT_MODEL = "gemini-3.8-flash"
 
 MAX_FINDINGS_PER_REQUEST = 20
+
+
+def get_setting(name, default=None):
+    """
+    Read configuration from Streamlit Secrets first (deployed app),
+    then fall back to environment variables / local .env.
+    """
+    try:
+        value = st.secrets.get(name)
+        if value:
+            return str(value)
+    except Exception:
+        # Streamlit Secrets may be unavailable during local development.
+        pass
+
+    return os.getenv(name, default)
 
 
 # =========================================================
@@ -306,17 +323,17 @@ def enrich_findings_with_gemini(
     """
 
     api_key = (
-        os.getenv("GEMINI_API_KEY")
-        or os.getenv("GOOGLE_API_KEY")
+        get_setting("GEMINI_API_KEY")
+        or get_setting("GOOGLE_API_KEY")
     )
 
     if not api_key:
-
         return {
             "ok": False,
             "message": (
-                "Gemini API key not found. "
-                "Check GEMINI_API_KEY in your project .env file."
+                "Gemini API key not found. For deployment, add "
+                "GEMINI_API_KEY to Streamlit Cloud → App settings → "
+                "Secrets. For local development, add it to your .env file."
             ),
             "enrichments": []
         }
@@ -360,7 +377,7 @@ def enrich_findings_with_gemini(
     # MODEL CONFIGURATION
     # -----------------------------------------------------
 
-    model = os.getenv(
+    model = get_setting(
         "GEMINI_MODEL",
         DEFAULT_MODEL
     )
